@@ -1,5 +1,7 @@
 # PdfToPng
-a simple python script to convert pdf files into png files
+a simple python script to convert pdf files into png files.
+Script uses PyMuPDF library. You need to install it before using the script:
+pip install PyMuPDF
 
 Replace '/path/to/your/pdf/files/' and '/path/to/save/images/' with the paths to your PDF files and where you want to save the images, respectively.
 
