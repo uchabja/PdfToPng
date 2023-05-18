@@ -14,6 +14,8 @@ if not img_dir.endswith('/'):
 # make img_dir if not exist
 os.makedirs(img_dir, exist_ok=True)
 
+desired_dpi = 300  # specify your desired DPI here
+
 # iterate over files in the pdf directory
 for filename in os.listdir(pdf_dir):
     if filename.endswith('.pdf'):
